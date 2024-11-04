@@ -1,6 +1,6 @@
 function getShippingMessage(country, price, delieveryFee) {
-    totalPrice = price + delieveryFee
-    return `Shipping to ${country} will cost ${totalPrice} credits"`
+    let totalPrice = price + delieveryFee
+    return `Shipping to ${country} will cost ${totalPrice} credits`
 }
 
 
